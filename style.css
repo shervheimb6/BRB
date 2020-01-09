@@ -1,0 +1,62 @@
+nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background: #ddd;
+    color: black;
+}
+main {
+    background-image:url ("https://s3.reutersmedia.net/resources/r/?m=02&d=20191024&t=2&i=1444496701&r=LYNXMPEF9N0WP&w=940") ;
+}
+
+#top {
+    display: flexbox;
+    
+}
+.one {
+    color: red;
+}
+
+.two {
+    color: blue;
+}
+
+.three {
+    color:green;
+}
+
+.four {
+    color: yellow;
+}
+
+.five {
+    color: purple;
+}
+
+.six {
+    color: black;
+}
+
+.seven {
+    color:teal;
+}
+footer {
+    background-color: rgb(186, 194, 194);
+    padding-left: 6%;
+    border-radius: 25px;
+}
