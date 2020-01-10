@@ -23,40 +23,101 @@ nav a:hover {
 main {
     background-image:url ("https://s3.reutersmedia.net/resources/r/?m=02&d=20191024&t=2&i=1444496701&r=LYNXMPEF9N0WP&w=940") ;
 }
+img {
+    width: 100%;
+    margin-left: 8%;
+}
 
 #top {
-    display: flexbox;
+    display: inline-block;
+    
+    
     
 }
 .one {
-    color: red;
+    background-color: red;
 }
 
 .two {
-    color: blue;
+    background-color: blue;
 }
 
 .three {
-    color:green;
+    background-color:green;
 }
 
 .four {
-    color: yellow;
+    background-color: yellow;
 }
 
 .five {
-    color: purple;
+    background-color: purple;
 }
 
 .six {
-    color: black;
+    background-color: black;
 }
 
 .seven {
-    color:teal;
+    background-color:teal;
 }
 footer {
     background-color: rgb(186, 194, 194);
     padding-left: 6%;
     border-radius: 25px;
+}
+#pictop {
+    display:flexbox;
+    grid-gap:15px;
+}
+#bottom {
+    display: inline-flex;
+    background-color: rgb(33, 148, 148);
+    margin: 15px;
+    border-radius: 5px;
+}
+.first {
+    width: 25%;
+}
+.second {
+    width:25%;
+}
+.third {
+    width: 25%;
+}
+@media screen and (max-width: 380px) {
+    .first {
+        width: 100%;
+        text-align: center;
+        margin-left: 5%;
+        margin-right:15%;
+        margin-top:5%;
+        margin-bottom:5%;
+        color:white;
+        padding: 10px 32px;
+
+    }
+    .second {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    .third {
+        color:white;
+        padding: 14px 16px;
+    }
+    
+    #top {
+        border-radius: 50%;
+        width:9%;
+        padding: 7px;
+    }
+    
+}
+#article {
+    background-image: url ("https://wallpaperaccess.com/full/187161.jpg");
 }
