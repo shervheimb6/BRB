@@ -1,3 +1,7 @@
+body {
+   vw: 100vw;
+}
+
 nav {
     overflow: hidden;
     background-color: #333;
