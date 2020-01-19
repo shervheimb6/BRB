@@ -33,10 +33,11 @@ img {
 }
 
 #top {
-    width: 6.5em;
-    border-radius: 8px;
+    
+    border-radius: 50%;
     text-align: center;
-    margin-bottom: 1em;
+    margin: 1em;
+    padding:1.5em;
     
     
     
@@ -73,12 +74,16 @@ footer {
     padding-left: 6%;
     border-radius: 25px;
     
+    
 }
 #pictop {
     display: flex;
     flex-direction:row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    
+    
     
 }
 #bottom {
@@ -89,12 +94,15 @@ footer {
 }
 .first {
     width: 25%;
+    color: #f2f2f2
 }
 .second {
     width:25%;
+    color: #f2f2f2
 }
 .third {
     width: 25%;
+    color: #f2f2f2
 }
 @media screen and (max-width: 380px) {
     .first {
@@ -126,9 +134,24 @@ footer {
         border-radius: 50%;
         width:9%;
         padding: 7px;
+
     }
+
+  footer {
+      width: auto 0;
+  }
+
+
+   /* #top {
+        width: 6.5em;
+        border-radius: 50%;
+        text-align: center;
+        margin: 1em;
+        padding:2em;*/
     
-}
+    
+} 
+
 #article {
     background-image: url ("https://wallpaperaccess.com/full/187161.jpg");
 }
