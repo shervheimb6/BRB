@@ -1,6 +1,6 @@
-body {
-   vw: 100vw;
-}
+/*body {
+   width: 100vw;
+}*/
 
 nav {
     overflow: hidden;
@@ -29,11 +29,14 @@ main {
 }
 img {
     width: 100%;
-    margin-left: 8%;
+    margin: auto 0;
 }
 
 #top {
-    display: inline-block;
+    width: 6.5em;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 1em;
     
     
     
@@ -69,10 +72,14 @@ footer {
     background-color: rgb(186, 194, 194);
     padding-left: 6%;
     border-radius: 25px;
+    
 }
 #pictop {
-    display:flexbox;
-    grid-gap:15px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 #bottom {
     display: inline-flex;
@@ -125,3 +132,4 @@ footer {
 #article {
     background-image: url ("https://wallpaperaccess.com/full/187161.jpg");
 }
+
