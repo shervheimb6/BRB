@@ -41,10 +41,6 @@ img {
 
 #top {
     
-    /*border-radius: 50%;
-    text-align: center;
-    margin: 1em;
-    padding:1.5em;*/
     display:flex;
     justify-content: space-around;
     width: 6.5em;
@@ -54,9 +50,7 @@ img {
     margin-left:2px;
     margin-right:2px;
     padding-top: .6em;
-    padding-bottom: .6em;
-     
-    
+    padding-bottom: .6em;  
 }
 
 .title {
@@ -66,7 +60,6 @@ img {
     font-size:42px;
     font-weight:bold;
     color:white;
-
 }
 
 .title p {
@@ -107,9 +100,7 @@ img {
 footer {
     background-color: rgb(186, 194, 194);
     padding-left: 6%;
-    border-radius: 25px;
-    
-    
+    border-radius: 25px;   
 }
 #pictop {
     display: flex;
@@ -118,13 +109,6 @@ footer {
     align-items: center;
     margin-top: 90px;
 }
-
-/*#brbee {
-position: absolute;
-top: 15%;
-color: white;
-font-weight: bolder;
-}*/
 
 .container {
    
@@ -138,6 +122,7 @@ font-weight: bolder;
     margin: 15px;
     border-radius: 5px;
 }
+
 .first {
     width: 95%;
     margin: 0 auto;
@@ -162,69 +147,50 @@ font-weight: bolder;
     font-weight:bold;
     padding-left:3%;
     border: 3px solid orange;
-    
+}
+
+@media only screen and (min-width: 800px) {
+
+    #innerpic {
+        width: 115px;
+        height: 115px;
+        position: absolute;
+        left: 15px;
+        top:24em;
+        border-radius: 50%;
+    }
+
+    .title {
+        position: absolute;
+        top: 3.45em;
+        left: 25%;
+        font-size:60px;
+        font-weight:bold;
+        color:white;
+    }
 
 }
-@media screen and (max-width: 380px) {
+@media only screen and (max-width: 380px) {
    
    #bottom {
        display: flex;
        flex-direction: row;
        justify-content: center
-       
-
    }
-   
-   /*
-    .first {
-        width: 100%;
-        text-align: center;
-        margin-left: 5%;
-        margin-right:15%;
-        margin-top:5%;
-        margin-bottom:5%;
-        color:white;
-        padding: 10px 32px;
-
-    }
-    .second {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    }
-    .third {
-        color:white;
-        padding: 14px 16px;
-    }*/
     
     #top {
         border-radius: 50%;
         width:9%;
         padding: 7px;
-
     }
+
 
   footer {
       width: auto 0;
   }
 
 
-   /* #top {
-        width: 6.5em;
-        border-radius: 50%;
-        text-align: center;
-        margin: 1em;
-        padding:2em;*/
-    
-    
-} 
+  
 
-#article {
-    background-image: url "https://wallpaperaccess.com/full/187161.jpg";
-    
-}
+
 
