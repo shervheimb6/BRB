@@ -127,7 +127,7 @@ footer {
 }
 
 .second {
-    width:25%;
+    width:23%;
     color: #f2f2f2;
     padding-left:3px;
     border: 3px solid rgb(33, 148, 148);
@@ -135,7 +135,7 @@ footer {
 }
 
 .third {
-    width: 22%;
+    width: 21%;
     color: #f2f2f2;
     padding-left: 3px;
     border: 3px solid rgb(33, 148, 148);
@@ -147,6 +147,7 @@ footer {
     font-weight:bold;
     padding-left:3%;
     border: 3px solid orange;
+    text-align: center;
 }
 
 @media only screen and (min-width: 800px) {
