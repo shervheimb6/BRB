@@ -117,15 +117,18 @@ font-weight: bolder;
 }
 
 #bottom {
-    display: inline-flex;
+    display:inline-flex;
+    flex-wrap: wrap;
     background-color: rgb(33, 148, 148);
     margin: 15px;
     border-radius: 5px;
 }
 .first {
-    width: 85%;
+    width: 100%;
+    margin: auto 0;
     color: #f2f2f2;
     padding-left:4px;
+    
 }
 .second {
     width:25%;
@@ -133,9 +136,18 @@ font-weight: bolder;
     padding-left:3px
 }
 .third {
-    width: 25%;
+    width: 22%;
     color: #f2f2f2;
     padding-left: 3px;
+}
+.fourth {
+    width: 20%;
+    color: orange;
+    text-weight:bold;
+    padding-left:3%;
+    border: 3px solid orange;
+    
+
 }
 @media screen and (max-width: 380px) {
    
