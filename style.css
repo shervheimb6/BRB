@@ -100,17 +100,13 @@ footer {
     padding-left: 6%;
     border-radius: 25px;   
 }
+
 #pictop {
     display: flex;
     flex-direction:row;
     justify-content: space-around;
     align-items: center;
     margin-top: 90px;
-}
-
-.container {
-   
-    background-image: url("https://media.istockphoto.com/photos/bee-picture-id474875198?k=6&m=474875198&s=612x612&w=0&h=CigG3gF6S2ijeO8qOmfMgHBOa_Fa-Cb2RugY-J2Hh9A=");
 }
 
 #bottom {
@@ -129,16 +125,19 @@ footer {
     text-align: center;
     
 }
+
 .second {
     width:25%;
     color: #f2f2f2;
     padding-left:3px
 }
+
 .third {
     width: 22%;
     color: #f2f2f2;
     padding-left: 3px;
 }
+
 .fourth {
     width: 20%;
     color: orange;
@@ -174,15 +173,14 @@ footer {
        display: flex;
        flex-direction: row;
        justify-content: center
-   }
-    
+   } 
+
     #top {
         border-radius: 50%;
         width:9%;
         padding: 7px;
     }
 }
-
 
   footer {
       width: auto 0;
