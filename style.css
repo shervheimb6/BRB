@@ -34,7 +34,7 @@ img {
 }
 
 #innerpic {
-    width: 15%;
+    width: 20%;
     height: 15%;
     position: absolute;
     left: 15px;
@@ -48,12 +48,17 @@ img {
     text-align: center;
     margin: 1em;
     padding:1.5em;*/
+    display:flex;
+    justify-content: space-around;
     width: 6.5em;
-    border-radius: 8px;
+    border-radius: 11px;
     text-align: center;
     margin-bottom: 1em;
+    margin-left:2px;
+    margin-right:2px;
     padding-top: .6em;
-    padding-bottom: .6em; 
+    padding-bottom: .6em;
+     
     
 }
 
@@ -120,16 +125,19 @@ font-weight: bolder;
     border-radius: 5px;
 }
 .first {
-    width: 25%;
-    color: #f2f2f2
+    width: 85%;
+    color: #f2f2f2;
+    padding-left:4px;
 }
 .second {
     width:25%;
-    color: #f2f2f2
+    color: #f2f2f2;
+    padding-left:3px
 }
 .third {
     width: 25%;
-    color: #f2f2f2
+    color: #f2f2f2;
+    padding-left: 3px;
 }
 @media screen and (max-width: 380px) {
    
@@ -141,7 +149,7 @@ font-weight: bolder;
 
    }
    
-   
+   /*
     .first {
         width: 100%;
         text-align: center;
@@ -165,7 +173,7 @@ font-weight: bolder;
     .third {
         color:white;
         padding: 14px 16px;
-    }
+    }*/
     
     #top {
         border-radius: 50%;
