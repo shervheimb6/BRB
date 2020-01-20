@@ -1,6 +1,4 @@
-/*body {
-   width: 100vw;
-}*/
+
 
 nav {
     overflow: hidden;
@@ -24,17 +22,17 @@ nav a:hover {
     background: #ddd;
     color: black;
 }
-main {
+/*main {
     z-index: 1;
-}
+}*/
 img {
     width: 100%;
     margin: auto 0;
 }
 
 #innerpic {
-    width: 15%;
-    height: 15%;
+    width: 75px;
+    height: 75px;
     position: absolute;
     left: 15px;
     top:300px;
