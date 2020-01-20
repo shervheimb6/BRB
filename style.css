@@ -35,7 +35,7 @@ img {
     height: 75px;
     position: absolute;
     left: 15px;
-    top:200px;
+    top:14em;
     border-radius: 50%;
 }
 
@@ -61,7 +61,7 @@ img {
 
 .title {
     position: absolute;
-    top: 1.55em;
+    top: 1.95em;
     left: 25%;
     font-size:42px;
     font-weight:bold;
@@ -116,7 +116,7 @@ footer {
     flex-direction:row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 75px;
+    margin-top: 90px;
 }
 
 /*#brbee {
