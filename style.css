@@ -22,9 +22,7 @@ nav a:hover {
     background: #ddd;
     color: black;
 }
-/*main {
-    z-index: 1;
-}*/
+
 img {
     width: 100%;
     margin: auto 0;
@@ -183,14 +181,9 @@ footer {
         width:9%;
         padding: 7px;
     }
+}
 
 
   footer {
       width: auto 0;
   }
-
-
-  
-
-
-
